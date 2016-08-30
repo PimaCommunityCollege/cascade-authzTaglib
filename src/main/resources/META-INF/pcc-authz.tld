@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE taglib PUBLIC "-//Sun Microsystems, Inc.//DTD JSP Tag Library 1.1//EN" "http://java.sun.com/j2ee/dtds/web-jsptaglibrary_1_1.dtd">
+<taglib>
+	<tlibversion>1.2</tlibversion>
+	<jspversion>1.1</jspversion>
+	<shortname>pcc-authz</shortname>
+	<uri>http://pcc-authz</uri> 
+	<tag>
+		<name>requireGroup</name>
+		<tag-class>edu.pima.cascade.loginReport.requireGroupTag</tag-class>
+		<body-content>empty</body-content>
+		<attribute>
+            <name>group</name>
+            <required>true</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+		<attribute>
+			<name>failUrl</name>
+			<required>true</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+	</tag>
+</taglib>
+
