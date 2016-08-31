@@ -7,7 +7,7 @@
 	<uri>http://pcc-authz</uri> 
 	<tag>
 		<name>requireGroup</name>
-		<tag-class>edu.pima.cascade.loginReport.requireGroupTag</tag-class>
+		<tag-class>edu.pima.cascade.authzTaglib.RequireGroupTag</tag-class>
 		<body-content>empty</body-content>
 		<attribute>
             <name>group</name>
